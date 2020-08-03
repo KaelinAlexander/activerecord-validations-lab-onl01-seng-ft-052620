@@ -5,4 +5,4 @@ class TitleValidator < ActiveModel::Validator
     record.errors[:title] << "Please make this more clickbait-y."
   end
 
-end 
+end
